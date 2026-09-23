@@ -1,0 +1,18 @@
+*   [33m0a3701c[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m Merge pull request #4 from andreyracl/feature/form-modal-validation
+[31m|[m[32m\[m  
+[31m|[m * [33m5c1c6a3[m[33m ([m[1;31morigin/feature/form-modal-validation[m[33m, [m[1;32mfeature/form-modal-validation[m[33m)[m feat: add order form modal and validation
+[31m|[m[31m/[m  
+*   [33maf8e55a[m Merge pull request #3 from andreyracl/feature/html-css-start-page
+[33m|[m[34m\[m  
+[33m|[m * [33mdf543a3[m[33m ([m[1;31morigin/feature/html-css-start-page[m[33m, [m[1;32mfeature/html-css-start-page[m[33m)[m feat: add semantic HTML structure and base CSS styles
+* [34m|[m [33md8ede27[m Merge pull request #2 from andreyracl/feature/html-css-start-page
+[35m|[m[34m\[m[34m|[m 
+[35m|[m * [33mfaf2e74[m feat: add semantic HTML structure and base CSS styles
+[35m|[m[35m/[m  
+* [33mc8148e0[m docs: add GitHub Pages link
+*   [33mb7682ae[m Merge pull request #1 from andreyracl/feature/start-page
+[1;31m|[m[1;32m\[m  
+[1;31m|[m * [33m2fb34e9[m[33m ([m[1;31morigin/feature/start-page[m[33m, [m[1;32mfeature/start-page[m[33m)[m feat: add project description section
+[1;31m|[m[1;31m/[m  
+* [33m09ef432[m docs: add project status to README
+* [33ma04b0ff[m feat: initialize frontend project structure
