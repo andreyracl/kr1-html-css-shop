@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Подробная карточка товара: описание, характеристики, цена и оформление заявки.">
+  <title>Наушник — Учебный интернет-магазин</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a class="site-header__logo" href="index.html">ShopProject</a>
+
+      <nav class="site-nav" aria-label="Основная навигация">
+        <ul class="site-nav__list">
+          <li class="site-nav__item">
+            <a class="site-nav__link" href="index.html">Главная</a>
+          </li>
+          <li class="site-nav__item">
+            <a class="site-nav__link" href="catalog.html">Каталог</a>
+          </li>
+          <li class="site-nav__item">
+            <a class="site-nav__link site-nav__link--active" href="product.html" aria-current="page">Товар</a>
+          </li>
+          <li class="site-nav__item">
+            <a class="site-nav__link" href="order.html">Заявка</a>
+          </li>
+          <li class="site-nav__item">
+            <a class="site-nav__link" href="contacts.html">Контакты</a>
+          </li>
+          <li class="site-nav__item">
+            <a class="site-nav__link" href="index.html#advantages">Преимущества</a>
+          </li>
+          <li class="site-nav__item">
+            <a class="site-nav__link" href="index.html#popular">Популярные товары</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page">
+    <nav class="breadcrumbs" aria-label="Хлебные крошки">
+      <a class="breadcrumbs__link" href="index.html">Главная</a>
+      <span class="breadcrumbs__separator" aria-hidden="true">/</span>
+      <a class="breadcrumbs__link" href="catalog.html">Каталог</a>
+      <span class="breadcrumbs__separator" aria-hidden="true">/</span>
+      <span class="breadcrumbs__current" aria-current="page">Наушник</span>
+    </nav>
+
+    <article class="product">
+      <div class="product__media">
+        <span class="product__badge">−20%</span>
+        <img class="product__image" src="images/product-3.jpg" alt="Наушник" width="400" height="300">
+      </div>
+
+      <div class="product__info">
+        <p class="product__category">Электроника</p>
+        <h1 class="product__title">Наушник</h1>
+        <p class="product__description">
+          Это правый наушник! Не левый!
+        </p>
+        <p class="product__price">
+          2000 руб.
+          <s class="product__old-price">2500 руб.</s>
+        </p>
+        <p class="product__stock">В наличии</p>
+        <div class="product__actions">
+          <a class="button button--primary" href="order.html">Оформить заявку</a>
+          <a class="button button--secondary" href="catalog.html">Вернуться в каталог</a>
+        </div>
+      </div>
+    </article>
+
+    <section class="section">
+      <h2 class="section__title">Характеристики</h2>
+
+      <div class="product-table-wrapper">
+        <table class="product-table">
+          <caption class="product-table__caption">Характеристики товара</caption>
+          <thead>
+            <tr>
+              <th class="product-table__head" scope="col">Параметр</th>
+              <th class="product-table__head" scope="col">Значение</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="product-table__row">
+              <th class="product-table__cell product-table__cell--name" scope="row">Категория</th>
+              <td class="product-table__cell">Электроника</td>
+            </tr>
+            <tr class="product-table__row">
+              <th class="product-table__cell product-table__cell--name" scope="row">Цена</th>
+              <td class="product-table__cell">2000 руб.</td>
+            </tr>
+            <tr class="product-table__row">
+              <th class="product-table__cell product-table__cell--name" scope="row">Наличие</th>
+              <td class="product-table__cell">В наличии</td>
+            </tr>
+            <tr class="product-table__row">
+              <th class="product-table__cell product-table__cell--name" scope="row">Гарантия</th>
+              <td class="product-table__cell">12 месяцев</td>
+            </tr>
+            <tr class="product-table__row">
+              <th class="product-table__cell product-table__cell--name" scope="row">Вес</th>
+              <td class="product-table__cell">1,2 кг</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2 class="section__title">Отзывы покупателей</h2>
+
+      <div class="reviews">
+        <article class="review">
+          <h3 class="review__author">Анна</h3>
+          <p class="review__rating" aria-label="Оценка 5 из 5">★★★★★</p>
+          <p class="review__text">Товар пришёл быстро, всё соответствует описанию.</p>
+        </article>
+        <article class="review">
+          <h3 class="review__author">Игорь</h3>
+          <p class="review__rating" aria-label="Оценка 4 из 5">★★★★☆</p>
+          <p class="review__text">Хорошее качество за свою цену, упаковка могла быть лучше.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="site-footer__inner">
+      <p class="site-footer__text">&copy; 2026 Учебный проект. Все права защищены.</p>
+      <p class="site-footer__text">Дисциплина: Фронтенд и бэкенд разработка</p>
+      <p class="site-footer__text">
+        Телефон: <a class="site-footer__link" href="tel:+79000000000">+7 (900) 000-00-00</a>,
+        e-mail: <a class="site-footer__link" href="mailto:info@example.com">info@example.com</a>
+      </p>
+    </div>
+  </footer>
+
+  <a class="to-top" href="#top" aria-label="Наверх страницы">↑</a>
+</body>
+</html>
