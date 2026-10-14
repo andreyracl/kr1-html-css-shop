@@ -2,7 +2,8 @@
 const orderDialog = document.getElementById('order-dialog');
 
 // Получаем все кнопки заказа в карточках товаров.
-const orderButtons = document.querySelectorAll('.product-card__button');
+// [data-product] нужен, чтобы не захватить ссылки «Подробнее» с тем же БЭМ-классом.
+const orderButtons = document.querySelectorAll('.product-card__button[data-product]');
 
 // Получаем кнопку закрытия модального окна.
 const closeDialogButton = document.getElementById('close-order-dialog');
